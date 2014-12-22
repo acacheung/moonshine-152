@@ -1,0 +1,19 @@
+.contact__infos {
+  margin: {
+    top: 30px;
+    bottom: 30px;
+  }
+  @media (max-width: 449px) {
+    p {
+      margin-bottom: 10px;
+    }
+  }
+  @media (min-width: 450px) {
+    text-align: center;
+  }
+}
+
+.contact__map {
+  padding-bottom: 160px;
+  width: 100%;
+}

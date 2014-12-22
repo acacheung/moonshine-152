@@ -1,0 +1,79 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html, body {
+  overflow-x: hidden;
+  position: relative;
+}
+
+body {
+  background-color: #f3f3f0;
+  background-color: rgba($gray, .2);
+  font-family: "open sans", sans-serif;
+  color: $maroon;
+}
+
+main {
+  margin-right: 0;
+  position: relative;
+  min-height: 100vh;
+  box-shadow: -4px 0 0 0 #eeeeea;
+  box-shadow: -4px 0 0 0 rgba($gray, .1);
+  background-color: $white;
+  @include transition-duration(.25s);
+  @include transition-property(margin-right, left);
+  @media (max-width: 999px) {
+    left: 0;
+  }
+  @media (min-width: 1000px) {
+    margin-right: 240px;
+    left: 240px;
+  }
+}
+
+.mobile-nav-is-expanded {
+  @media (max-width: 999px) {
+    left: 180px;
+  }
+  @media (min-width: 770px) and (max-width: 999px) {
+    margin-right: 150px;
+  }
+}
+
+@font-face {
+  font: {
+    family: "icomoon";
+    weight: normal;
+    style: normal;
+  }
+  src: url("../../public/fonts/icomoon.eot");
+  src: url("../../public/fonts/icomoon.eot?#iefix") format("eot"),
+       url("../../public/fonts/icomoon.woff") format("woff"),
+       url("../../public/fonts/icomoon.ttf") format("truetype");
+}
+
+.icon {
+  font-family: "icomoon";
+  @extend %font-smoothing;
+  speak: none;
+}
