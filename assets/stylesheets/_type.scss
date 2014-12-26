@@ -5,23 +5,10 @@ b {
 .t-link {
   font-style: italic;
   text-decoration: none;
-  color: $blue;
   @include transition-duration(.25s);
   @include transition-property(opacity);
   &:hover {
     opacity: .6;
-  }
-}
-
-.t-link--has-arrow {
-  @extend .t-link;
-  &:after {
-    content: "→";
-    margin-left: 5px;
-    font: {
-      family: "Arial", sans-serif;
-      style: normal;
-    }
   }
 }
 

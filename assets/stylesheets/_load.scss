@@ -1,8 +1,8 @@
+$black: #1f1f1f;
+$gray: #959595;
 $white: #ffffff;
-$gray: #c4c2b5;
-$yellow: #f8bb5f;
-$blue: #788a90;
-$maroon: #48180e;
+$gold: #d6ba6a;
+
 
 %font-smoothing {
   -webkit-font-smoothing: antialiased;
@@ -13,13 +13,6 @@ $maroon: #48180e;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-@mixin calc($property, $expression, $fallback) {
-  #{$property}: $fallback;
-  #{$property}: -webkit-calc(#{$expression});
-  #{$property}: -moz-calc(#{$expression});
-  #{$property}: calc(#{$expression});
 }
 
 @mixin transition-duration($transition-duration) {
@@ -36,11 +29,4 @@ $maroon: #48180e;
   -ms-transition-property: $transition-property;
   -o-transition-property: $transition-property;
   transition-property: $transition-property;
-}
-
-@mixin transition-delay($transition-delay) {
-  -webkit-transition-delay: $transition-delay;
-  -moz-transition-delay: $transition-delay;
-  -o-transition-delay: $transition-delay;
-  transition-delay: $transition-delay;
 }
