@@ -70,7 +70,7 @@ b {
   margin-bottom: 30px;
   max-width: 300px;
   font-size: 32px;
-  font-weight: 800;
+  font-weight: 900;
   color: #d6ba6a; }
 
 .desc {
@@ -97,6 +97,9 @@ b {
 
 a.info__value {
   text-decoration: none; }
+
+.socials {
+  margin-bottom: 80px; }
 
 .social--twitter, .social--facebook, .social--instagram {
   margin-right: 12px;
