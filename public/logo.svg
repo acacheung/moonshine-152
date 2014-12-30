@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="90px" height="19px" viewBox="0 0 90 19" enable-background="new 0 0 90 19" xml:space="preserve">
+<g>
+	<path fill="#FFFFFF" d="M74.808,9.062l2.651-1.49v8.59h-1.024V9.188l-1.627,0.967V9.062z"/>
+	<path fill="#FFFFFF" d="M79.156,12.43V7.811h4.039v0.956h-3.083v2.344c0.409-0.171,0.728-0.228,1.093-0.228
+		c1.125,0,2.57,0.865,2.57,2.64c0,1.502-1.126,2.73-2.617,2.73c-1.285,0-2.035-0.523-2.615-1.468l0.853-0.558
+		c0.353,0.717,0.956,1.127,1.685,1.127c0.738,0,1.672-0.546,1.672-1.81c0-1.023-0.762-1.764-1.729-1.764
+		c-0.626,0-1.194,0.217-1.753,0.729L79.156,12.43z"/>
+	<path fill="#FFFFFF" d="M87.316,11.395c0.318-0.478,0.66-0.989,0.66-1.581c0-0.626-0.535-1.138-1.195-1.138
+		c-0.762,0-1.377,0.387-1.445,1.41h-1.023c0.034-1.41,1.002-2.366,2.389-2.366C87.908,7.72,89,8.448,89,9.802
+		c0,0.546-0.159,1.024-0.433,1.434l-2.628,3.971h2.992v0.956h-4.812L87.316,11.395z"/>
+	<g>
+		<polygon fill="#FFFFFF" points="57.149,2.903 59.17,3.05 57.149,3.212 		"/>
+	</g>
+	<g>
+		<polygon fill="#FFFFFF" points="56.827,2.903 54.807,3.05 56.827,3.212 		"/>
+	</g>
+	<g>
+		<g>
+			<g>
+				<polygon fill="#E6E7E8" points="56.74,2.851 56.938,0.473 57.156,2.851 				"/>
+			</g>
+			<g>
+				<polygon fill="#E6E7E8" points="56.74,3.231 56.938,5.609 57.156,3.231 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<circle fill="#BCBEC0" cx="56.932" cy="3.05" r="0.492"/>
+		<polygon fill="#BCBEC0" points="55.86,2 56.906,2.8 57.951,2 57.152,3.046 57.951,4.091 56.906,3.292 55.86,4.091 56.658,3.046 		
+			"/>
+	</g>
+	<radialGradient id="SVGID_1_" cx="56.9316" cy="3.0498" r="0.4958" gradientUnits="userSpaceOnUse">
+		<stop  offset="0.4677" style="stop-color:#F1F2F2"/>
+		<stop  offset="0.9339" style="stop-color:#D5D7D8"/>
+		<stop  offset="1" style="stop-color:#D1D3D4"/>
+	</radialGradient>
+	<circle fill="url(#SVGID_1_)" cx="56.932" cy="3.05" r="0.496"/>
+	<g>
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="18.9009" y1="4.6226" x2="18.9009" y2="16.1043">
+			<stop  offset="0.2835" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#58595B"/>
+		</linearGradient>
+		<path fill="url(#SVGID_2_)" d="M18.901,7.378c2.935,0,4.585,2.321,4.585,4.459c0,2.14-1.65,4.461-4.585,4.461
+			c-2.936,0-4.585-2.321-4.585-4.461C14.316,9.7,15.966,7.378,18.901,7.378z M18.901,15.274c1.763,0,3.424-1.388,3.424-3.437
+			c0-2.047-1.661-3.435-3.424-3.435c-1.764,0-3.424,1.388-3.424,3.435C15.477,13.887,17.138,15.274,18.901,15.274z"/>
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="37.416" y1="4.6226" x2="37.416" y2="16.1041">
+			<stop  offset="0.2835" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#58595B"/>
+		</linearGradient>
+		<path fill="url(#SVGID_3_)" d="M39.714,7.515h1.092v8.647h-1.023l-4.642-6.69h-0.023v6.69h-1.092V7.515h1.024l4.642,6.69h0.022
+			V7.515z"/>
+		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="44.6978" y1="4.6226" x2="44.6978" y2="16.1043">
+			<stop  offset="0.2835" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#58595B"/>
+		</linearGradient>
+		<path fill="url(#SVGID_4_)" d="M46.348,9.984c-0.148-1.024-0.739-1.649-1.661-1.649c-1.229,0-1.559,0.808-1.559,1.399
+			c0,0.649,0.409,1.058,1.263,1.376l1.091,0.409c1.377,0.513,2.015,1.32,2.015,2.367c0,1.399-1.114,2.412-2.776,2.412
+			c-1.57,0-2.686-0.831-2.822-2.561h1.092c0.091,0.945,0.569,1.604,1.786,1.604c0.945,0,1.626-0.603,1.626-1.365
+			c0-0.671-0.557-1.104-1.342-1.411l-1.104-0.432c-1.285-0.501-1.923-1.252-1.923-2.367c0-1.49,1.24-2.389,2.663-2.389
+			c1.433,0,2.547,0.854,2.672,2.605H46.348z"/>
+		<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="51.9463" y1="4.6226" x2="51.9463" y2="16.1041">
+			<stop  offset="0.2835" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#58595B"/>
+		</linearGradient>
+		<path fill="url(#SVGID_5_)" d="M54.205,7.515h1.092v8.647h-1.092v-3.914h-4.518v3.914h-1.092V7.515h1.092v3.709h4.518V7.515z"/>
+		<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="56.998" y1="4.6226" x2="56.998" y2="16.1041">
+			<stop  offset="0.2835" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#58595B"/>
+		</linearGradient>
+		<path fill="url(#SVGID_6_)" d="M56.451,7.515h1.093v8.647h-1.093V7.515z"/>
+		<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="62.1074" y1="4.6226" x2="62.1074" y2="16.1041">
+			<stop  offset="0.2835" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#58595B"/>
+		</linearGradient>
+		<path fill="url(#SVGID_7_)" d="M64.406,7.515h1.092v8.647h-1.023l-4.643-6.69h-0.021v6.69h-1.094V7.515h1.024l4.642,6.69h0.023
+			V7.515z"/>
+		<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="68.8252" y1="4.6226" x2="68.8252" y2="16.1041">
+			<stop  offset="0.2835" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#58595B"/>
+		</linearGradient>
+		<path fill="url(#SVGID_8_)" d="M66.59,7.515h4.471v1.024h-3.379v2.742h3.379v1.023h-3.379v2.834h3.379v1.023H66.59V7.515z"/>
+	</g>
+	<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="7.1133" y1="4.623" x2="7.1133" y2="16.1035">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#58595B"/>
+	</linearGradient>
+	<polygon fill="url(#SVGID_9_)" points="12.134,4.642 7.124,13.965 2.092,4.684 1,4.684 1,16.213 2.092,16.213 2.092,6.925 
+		2.115,6.925 7.131,16.23 7.131,16.236 12.112,6.883 12.134,6.883 12.134,16.171 13.227,16.171 13.227,4.642 	"/>
+	<path fill="#FFFFFF" d="M27.027,7.474c-0.839,0.801-1.363,1.93-1.363,3.182c0,2.43,1.97,4.4,4.4,4.4
+		c1.146,0,2.19-0.439,2.974-1.158c-0.796,1.365-2.274,2.281-3.968,2.281c-2.537,0-4.593-2.057-4.593-4.592
+		C24.477,9.785,25.516,8.226,27.027,7.474z"/>
+</g>
+</svg>
