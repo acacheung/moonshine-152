@@ -1,0 +1,87 @@
+.footer {
+  position: relative;
+  background-color: $new-black;
+  z-index: 2;
+}
+
+.hours__heading,
+.contacts__heading {
+  margin-bottom: 24px;
+  padding-top: 48px;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: $edmond;
+  text-transform: uppercase;
+  color: $dark-gray;
+  letter-spacing: 5px;
+}
+
+.hours__heading {
+  float: right;
+  clear: right;
+}
+
+.hours {
+  margin-bottom: 14px;
+  float: right;
+  clear: right;
+  @extend %merriweather;
+  font-size: 14px;
+  color: $white;
+}
+
+.contact {
+  margin-bottom: 10px;
+  float: left;
+  clear: left;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: $edmond;
+  text-decoration: none;
+  color: $white;
+  @include transition-duration(.25s);
+  @include transition-property(color);
+  &:hover {
+    color: $gold;
+  }
+  &:before {
+    content: ">";
+    margin-right: 8px;
+    cursor: default;
+  }
+}
+
+.socials {
+  margin-top: 22px;
+  margin-bottom: 64px;
+  float: left;
+  clear: left;
+}
+
+.social--twitter,
+.social--facebook,
+.social--instagram {
+  margin-right: 12px;
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  @extend %box-sizing;
+  border-radius: 16px;
+  background-color: $white;
+  @include transition-duration(.25s);
+  @include transition-property(background-color);
+  &:hover {
+    background-color: $gold;
+  }
+}
+
+.social--twitter,
+.social--instagram {
+  padding-top: 8px;
+  text-align: center;
+}
+
+.social--facebook {
+  padding-top: 4px;
+  padding-left: 4px;
+}

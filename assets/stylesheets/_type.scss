@@ -2,6 +2,13 @@ b {
   font-weight: bold;
 }
 
+.t-text {
+  margin-bottom: 32px;
+  font-size: 16px;
+  font-family: $merriweather;
+  line-height: 2;
+}
+
 .t-link {
   font-style: italic;
   text-decoration: none;
