@@ -1,5 +1,10 @@
 @import "load";
 @import "base";
+@import "layout";
 @import "type";
 
+@import "modules/footer";
+@import "modules/header";
+@import "modules/main";
+@import "modules/shared";
 @import "modules/splash";

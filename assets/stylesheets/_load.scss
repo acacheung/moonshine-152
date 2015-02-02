@@ -30,3 +30,24 @@ $gold: #d6ba6a;
   -o-transition-property: $transition-property;
   transition-property: $transition-property;
 }
+
+
+
+
+
+
+$new-black: #161616;
+$light-gray: #d9d9d9;
+$medium-gray: #9f9c9c;
+$dark-gray: #8c8c8e;
+$dark-gold: darken($gold, 10%);
+
+$edmond: "Edmondsans", sans-serif;
+$merriweather: "Merriweather", serif;
+
+%border-box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
