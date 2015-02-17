@@ -4,8 +4,10 @@
   text-indent: -9999px;
 }
 
-.main {
-  position: relative;
-  background-color: $white;
-  z-index: 2;
+.has-arrow {
+  &:after {
+    content: " →";
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+  }
 }

@@ -13,19 +13,25 @@
 
 .l-col,
 .l-colspan {
-  float: left;
   @extend %border-box;
+  @media (min-width: 910px) {
+    float: left;
+  }
 }
 
 .l-col {
-  padding-right: 60px;
-  padding-left: 5%;
-  width: 38.5%;
+  @media (min-width: 910px) {
+    padding-right: 60px;
+    padding-left: 5%;
+    width: 38.5%;
+  }
 }
 
 .l-colspan {
-  padding-right: 5%;
-  padding-left: 64px;
-  width: 61.5%;
-  border-left: 2px solid $dark-gold;
+  @media (min-width: 910px) {
+    padding-right: 5%;
+    padding-left: 64px;
+    width: 61.5%;
+    border-left: 2px solid $dark-gold;
+  }
 }

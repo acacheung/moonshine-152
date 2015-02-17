@@ -2,12 +2,15 @@
   position: relative;
   background-color: $new-black;
   z-index: 2;
+  @media (max-width: 909px) {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
 }
 
 .hours__heading,
 .contacts__heading {
   margin-bottom: 24px;
-  padding-top: 48px;
   font-size: 30px;
   font-weight: 300;
   font-family: $edmond;
@@ -17,21 +20,33 @@
 }
 
 .hours__heading {
-  float: right;
-  clear: right;
+  @media (min-width: 910px) {
+    padding-top: 48px;
+    float: right;
+    clear: right;
+  }
+}
+
+.contacts__heading {
+  padding-top: 48px;
 }
 
 .hours {
   margin-bottom: 14px;
-  float: right;
-  clear: right;
-  @extend %merriweather;
   font-size: 14px;
+  font-family: $merriweather;
+  font-weight: 300;
+  font-style: italic;
   color: $white;
+  @media (min-width: 910px) {
+    float: right;
+    clear: right;
+  }
 }
 
 .contact {
   margin-bottom: 10px;
+  padding-left: 14px;
   float: left;
   clear: left;
   font-size: 18px;
@@ -46,7 +61,10 @@
   }
   &:before {
     content: ">";
-    margin-right: 8px;
+    display: inline-block;
+    position: relative;
+    left: -8px;
+    text-indent: -6px;
     cursor: default;
   }
 }

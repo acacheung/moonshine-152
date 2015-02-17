@@ -20,3 +20,43 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+
+ul {
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: 'Edmondsans';
+  src: url('../../public/fonts/edmondsans-regular-webfont.eot');
+  src: url('../../public/fonts/edmondsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../public/fonts/edmondsans-regular-webfont.woff2') format('woff2'),
+       url('../../public/fonts/edmondsans-regular-webfont.woff') format('woff'),
+       url('../../public/fonts/edmondsans-regular-webfont.ttf') format('truetype'),
+       url('../../public/fonts/edmondsans-regular-webfont.svg#edmondsansregular') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Edmondsans';
+  src: url('../../public/fonts/edmondsans-medium-webfont.eot');
+  src: url('../../public/fonts/edmondsans-medium-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../public/fonts/edmondsans-medium-webfont.woff2') format('woff2'),
+       url('../../public/fonts/edmondsans-medium-webfont.woff') format('woff'),
+       url('../../public/fonts/edmondsans-medium-webfont.ttf') format('truetype'),
+       url('../../public/fonts/edmondsans-medium-webfont.svg#edmondsansmedium') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Edmondsans';
+  src: url('../../public/fonts/edmondsans-bold-webfont.eot');
+  src: url('../../public/fonts/edmondsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../public/fonts/edmondsans-bold-webfont.woff2') format('woff2'),
+       url('../../public/fonts/edmondsans-bold-webfont.woff') format('woff'),
+       url('../../public/fonts/edmondsans-bold-webfont.ttf') format('truetype'),
+       url('../../public/fonts/edmondsans-bold-webfont.svg#edmondsansbold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
