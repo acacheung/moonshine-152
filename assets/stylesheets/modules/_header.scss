@@ -1,46 +1,54 @@
 .header {
   position: relative;
-  height: 100vh;
   background-color: $new-black;
-  background-image: url("../../public/sky.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   text-align: center;
+  @media (min-width: 850px) {
+    height: 100vh;
+    background-image: url("../../public/sky.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
 }
 
 .hero {
-  height: 300px;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.hero__shadow {
   margin-right: auto;
   margin-left: auto;
-  position: fixed;
-  left: 0;
-  right: 0;
-  height: 40vh;
-  background-image: linear-gradient(to bottom, $new-black, transparent);
-  z-index: 1;
+  width: 80%;
+  @media (max-width: 849px) {
+    padding-top: 80px;
+    padding-bottom: 120px;
+  }
+  @media (min-width: 850px) {
+    height: 300px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.hero__logo {
+  width: 100%;
 }
 
 .hero__desc {
   margin-top: 20px;
   font-size: 18px;
-  @extend %merriweather;
+  font-family: $merriweather;
+  font-weight: 300;
+  font-style: italic;
   color: $medium-gray;
 }
 
 .nav {
-  position: absolute;
   bottom: 0;
   width: 100%;
   box-shadow: 0px 6px 0px 0px $dark-gold;
   background-color: $gold;
   z-index: 3;
+  @media (min-width: 850px) {
+    position: absolute;
+  }
 }
 
 .nav__link {
@@ -52,15 +60,45 @@
   text-decoration: none;
   color: $new-black;
   letter-spacing: 2px;
-  &:not(:first-child) {
-    margin-left: 60px;
-  }
   @include transition-duration(.25s);
   @include transition-property(color);
+  @media (max-width: 849px) {
+    display: block;
+    border-bottom: 1px solid #cba742;
+  }
+  @media (min-width: 850px) and (max-width: 959px) {
+    &:not(:first-child) {
+      margin-left: 40px;
+    }
+  }
+  @media (min-width: 960px) {
+    &:not(:first-child) {
+      margin-left: 60px;
+    }
+  }
   &:hover {
     color: $white;
     svg {
       fill: $white;
+    }
+  }
+  &.is-active {
+    @media (max-width: 849px) {
+      color: $white;
+    }
+    @media (min-width: 850px) {
+      position: relative;
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: -42px;
+        left: 50%;
+        left: calc(50% - 10px);
+        border-width: 10px 10px 0;
+        border-style: solid;
+        border-color: $dark-gold transparent;
+      }
     }
   }
 }

@@ -1,12 +1,22 @@
 .menu__links {
-  padding-top: 48px;
+  @media (max-width: 909px) {
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 30px;
+    padding-left: 5%;
+    overflow: auto;
+    border-bottom: 2px solid $dark-gold;
+  }
+  @media (min-width: 910px) {
+    padding-top: 48px;
+  }
 }
 
 .menu__link {
   margin-bottom: 20px;
-  float: right;
-  clear: right;
   font-size: 30px;
+  font-weight: 300;
   font-family: $edmond;
   text-transform: uppercase;
   text-decoration: none;
@@ -14,6 +24,14 @@
   letter-spacing: 5px;
   @include transition-duration(.25s);
   @include transition-property(color);
+  @media (max-width: 909px) {
+    float: left;
+    clear: left;
+  }
+  @media (min-width: 910px) {
+    float: right;
+    clear: right;
+  }
   &:hover {
     color: $gold;
   }
@@ -22,17 +40,26 @@
   }
 }
 
-.menu__items-wrap {
+.menu__lists-wrap {
   padding-top: 53px;
+  @media (max-width: 909px) {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
 }
 
-.menu__items {
+.menu__heading {
+  margin-bottom: 32px;
+  font-weight: 300;
+  font-family: $merriweather;
+  font-style: italic;
+  text-transform: uppercase;
+  color: $light-gray;
+}
+
+.menu__list {
   margin-bottom: 100px;
   color: $new-black;
-}
-
-ul.menu__items {
-  list-style-type: none;
 }
 
 .menu__item {
@@ -60,7 +87,9 @@ ul.menu__items {
 .menu__item__desc {
   margin-top: 4px;
   font-size: 14px;
-  @extend %merriweather;
+  font-family: $merriweather;
+  font-weight: 300;
+  font-style: italic;
   line-height: 1.6;
 }
 
@@ -73,7 +102,9 @@ ul.menu__items {
 .advisory {
   margin-bottom: 24px;
   font-size: 14px;
-  @extend %merriweather;
+  font-family: $merriweather;
+  font-weight: 300;
+  font-style: italic;
   color: $light-gray;
   line-height: 1.6;
 }
@@ -81,17 +112,19 @@ ul.menu__items {
 .moonshiners {
   padding-top: 90px;
   text-align: center;
+  width: 90%;
   max-width: 920px;
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 45px;
   border-bottom: 2px solid $dark-gold;
   margin-bottom: 45px;
+  @media (max-width: 699px) {
+    overflow: auto;
+  }
 }
 
 .moonshiner {
-  margin-right: 48px;
-  display: inline-block;
   text-decoration: none;
   text-align: center;
   color: $light-gray;
@@ -102,6 +135,21 @@ ul.menu__items {
   }
   &.is-active {
     color: $dark-gray;
+  }
+  @media (max-width: 699px) {
+    display: block;
+    float: left;
+    width: 50%;
+    &:nth-child(1),
+    &:nth-child(2) {
+      margin-bottom: 45px;
+    }
+  }
+  @media (min-width: 700px) {
+    display: inline-block;
+    &:not(:last-child) {
+      margin-right: 10%;
+    }
   }
 }
 
@@ -116,7 +164,9 @@ ul.menu__items {
 .moonshiner__desc {
   margin-top: 4px;
   font-size: 14px;
-  @extend %merriweather;
+  font-family: $merriweather;
+  font-weight: 300;
+  font-style: italic;
   line-height: 1.6;
   // TODO:  merge with menu__item__desc
 }
@@ -125,7 +175,7 @@ ul.menu__items {
   margin-right: auto;
   margin-bottom: 148px;
   margin-left: auto;
-  width: 90%;
+  width: 80%;
   max-width: 600px;
 }
 
@@ -145,7 +195,29 @@ ul.menu__items {
   line-height: 1.6;
   text-align: center;
   color: $white;
-  b {
-    text-decoration: underline;
-  }
+}
+
+.press__lists {
+  margin: 90px auto 148px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.press__item {
+  margin-bottom: 48px;
+}
+
+.press__heading {
+  margin-bottom: 8px;
+  font-size: 18px;
+  line-height: 32px;
+  font-family: $edmond;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  // TODO: merge with menu__item__heading
+}
+
+.press__date {
+  font-weight: 300;
+  text-transform: none;
 }
