@@ -1,6 +1,6 @@
 .header {
   position: relative;
-  background-color: $new-black;
+  background-color: $black;
   text-align: center;
   @media (min-width: 850px) {
     height: 100vh;
@@ -23,6 +23,8 @@
     height: 300px;
     position: relative;
     top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
   }
 }
@@ -58,7 +60,7 @@
   line-height: 72px;
   text-transform: uppercase;
   text-decoration: none;
-  color: $new-black;
+  color: $black;
   letter-spacing: 2px;
   @include transition-duration(.25s);
   @include transition-property(color);

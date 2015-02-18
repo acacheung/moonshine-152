@@ -259,6 +259,8 @@ b {
       height: 300px;
       position: relative;
       top: 50%;
+      -ms-transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
       transform: translateY(-50%); } }
 
 .hero__logo {
@@ -561,55 +563,3 @@ b {
   content: " →";
   font-family: "Arial", sans-serif;
   font-style: normal; }
-
-.dark {
-  border-top: 4px solid #d6ba6a;
-  background-color: #1f1f1f;
-  font-family: "lato", sans-serif; }
-
-@media (max-width: 579px) {
-  .l-splash {
-    margin-left: 5%;
-    margin-right: 5%; } }
-@media (min-width: 580px) {
-  .l-splash {
-    margin-right: auto;
-    margin-left: auto;
-    width: 60%; } }
-.logo {
-  margin-top: 80px;
-  width: 100%;
-  max-width: 600px; }
-
-.heading {
-  margin-top: 24px;
-  margin-bottom: 30px;
-  max-width: 300px;
-  font-size: 32px;
-  font-weight: 900;
-  color: #d6ba6a; }
-
-.desc {
-  margin-bottom: 30px;
-  max-width: 460px;
-  font-size: 20px;
-  line-height: 1.5;
-  color: white; }
-
-.infos {
-  margin-bottom: 30px; }
-
-.info {
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 1.33; }
-
-.info__key {
-  text-transform: uppercase;
-  color: #d6ba6a; }
-
-.info__value {
-  color: #959595; }
-
-a.info__value {
-  text-decoration: none; }
