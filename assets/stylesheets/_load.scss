@@ -1,13 +1,13 @@
-$black: #1f1f1f;
-$gray: #959595;
+$black: #161616;
 $white: #ffffff;
 $gold: #d6ba6a;
+$light-gray: #d9d9d9;
+$medium-gray: #9f9c9c;
+$dark-gray: #8c8c8e;
+$dark-gold: darken($gold, 10%);
 
-
-%font-smoothing {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+$edmond: "Edmondsans", sans-serif;
+$merriweather: "Merriweather", serif;
 
 %box-sizing {
   -webkit-box-sizing: border-box;
@@ -30,20 +30,6 @@ $gold: #d6ba6a;
   -o-transition-property: $transition-property;
   transition-property: $transition-property;
 }
-
-
-
-
-
-
-$new-black: #161616;
-$light-gray: #d9d9d9;
-$medium-gray: #9f9c9c;
-$dark-gray: #8c8c8e;
-$dark-gold: darken($gold, 10%);
-
-$edmond: "Edmondsans", sans-serif;
-$merriweather: "Merriweather", serif;
 
 %border-box {
   -webkit-box-sizing: border-box;
