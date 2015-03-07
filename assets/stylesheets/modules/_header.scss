@@ -15,7 +15,11 @@
   margin-right: auto;
   margin-left: auto;
   width: 80%;
-  @media (max-width: 849px) {
+  @media (max-width: 599px) {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  @media (min-width: 600px) and (max-width: 849px) {
     padding-top: 80px;
     padding-bottom: 120px;
   }
@@ -31,6 +35,9 @@
 
 .hero__logo {
   width: 100%;
+  @media (max-width: 599px) {
+    height: 100%;
+  }
 }
 
 .hero__desc {
@@ -57,7 +64,6 @@
   font-size: 14px;
   font-weight: 500;
   font-family: $edmond;
-  line-height: 72px;
   text-transform: uppercase;
   text-decoration: none;
   color: $black;
@@ -67,6 +73,10 @@
   @media (max-width: 849px) {
     display: block;
     border-bottom: 1px solid #cba742;
+    line-height: 50px;
+  }
+  @media (min-width: 850px) {
+    line-height: 72px;
   }
   @media (min-width: 850px) and (max-width: 959px) {
     &:not(:first-child) {
