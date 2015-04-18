@@ -422,6 +422,13 @@ b {
   margin-bottom: 100px;
   color: #161616; }
 
+.menu__times {
+  margin-bottom: 50px;
+  display: block;
+  font-size: 18px;
+  font-family: "Edmondsans", sans-serif;
+  color: #d6ba6a; }
+
 .menu__item {
   margin-bottom: 32px; }
 
