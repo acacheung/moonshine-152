@@ -43,5 +43,10 @@ $(function() {
       $(".js-target").addClass('is-hidden');
       $(".js-target4").removeClass('is-hidden');
     }
+
+    if ($(".js-trigger5").hasClass('is-active')) {
+      $(".js-target").addClass('is-hidden');
+      $(".js-target5").removeClass('is-hidden');
+    }
   });
 });
