@@ -317,10 +317,10 @@ b {
   @media (min-width: 850px) {
     .nav__link {
       line-height: 72px; } }
-  @media (min-width: 850px) and (max-width: 959px) {
+  @media (min-width: 850px) and (max-width: 1079px) {
     .nav__link:not(:first-child) {
       margin-left: 40px; } }
-  @media (min-width: 960px) {
+  @media (min-width: 1080px) {
     .nav__link:not(:first-child) {
       margin-left: 60px; } }
   .nav__link:hover {
