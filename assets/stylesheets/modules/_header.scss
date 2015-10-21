@@ -78,12 +78,12 @@
   @media (min-width: 850px) {
     line-height: 72px;
   }
-  @media (min-width: 850px) and (max-width: 959px) {
+  @media (min-width: 850px) and (max-width: 1079px) {
     &:not(:first-child) {
       margin-left: 40px;
     }
   }
-  @media (min-width: 960px) {
+  @media (min-width: 1080px) {
     &:not(:first-child) {
       margin-left: 60px;
     }
