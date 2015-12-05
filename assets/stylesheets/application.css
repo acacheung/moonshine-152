@@ -42,21 +42,18 @@ ul {
   src: url("../../public/fonts/edmondsans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../public/fonts/edmondsans-regular-webfont.woff2") format("woff2"), url("../../public/fonts/edmondsans-regular-webfont.woff") format("woff"), url("../../public/fonts/edmondsans-regular-webfont.ttf") format("truetype"), url("../../public/fonts/edmondsans-regular-webfont.svg#edmondsansregular") format("svg");
   font-weight: 300;
   font-style: normal; }
-
 @font-face {
   font-family: 'Edmondsans';
   src: url("../../public/fonts/edmondsans-medium-webfont.eot");
   src: url("../../public/fonts/edmondsans-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../../public/fonts/edmondsans-medium-webfont.woff2") format("woff2"), url("../../public/fonts/edmondsans-medium-webfont.woff") format("woff"), url("../../public/fonts/edmondsans-medium-webfont.ttf") format("truetype"), url("../../public/fonts/edmondsans-medium-webfont.svg#edmondsansmedium") format("svg");
   font-weight: 400;
   font-style: normal; }
-
 @font-face {
   font-family: 'Edmondsans';
   src: url("../../public/fonts/edmondsans-bold-webfont.eot");
   src: url("../../public/fonts/edmondsans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../public/fonts/edmondsans-bold-webfont.woff2") format("woff2"), url("../../public/fonts/edmondsans-bold-webfont.woff") format("woff"), url("../../public/fonts/edmondsans-bold-webfont.ttf") format("truetype"), url("../../public/fonts/edmondsans-bold-webfont.svg#edmondsansbold") format("svg");
   font-weight: 600;
   font-style: normal; }
-
 .l-wrap {
   margin-right: auto;
   margin-left: auto;
@@ -134,6 +131,10 @@ b {
       padding-right: 10%;
       padding-left: 10%; } }
 
+.contacts {
+  padding-top: 48px;
+  padding-bottom: 48px; }
+
 .hours__heading,
 .contacts__heading {
   margin-bottom: 24px;
@@ -150,8 +151,9 @@ b {
     float: right;
     clear: right; } }
 
-.contacts__heading {
-  padding-top: 48px; }
+.contacts__heading:last-of-type {
+  padding-top: 24px;
+  clear: both; }
 
 .hours {
   margin-bottom: 14px;
@@ -159,7 +161,7 @@ b {
   font-family: "Merriweather", serif;
   font-weight: 300;
   font-style: italic;
-  color: white; }
+  color: #ffffff; }
   @media (min-width: 910px) {
     .hours {
       float: right;
@@ -168,13 +170,15 @@ b {
 .contact {
   margin-bottom: 10px;
   padding-left: 14px;
+  display: block;
+  width: 100%;
   float: left;
   clear: left;
   font-size: 18px;
   font-weight: 600;
   font-family: "Edmondsans", sans-serif;
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   -webkit-transition-duration: 0.25s;
   -moz-transition-duration: 0.25s;
   -ms-transition-duration: 0.25s;
@@ -198,8 +202,8 @@ b {
 .socials {
   margin-top: 22px;
   margin-bottom: 64px;
-  float: left;
-  clear: left; }
+  float: right;
+  clear: right; }
 
 .social--twitter,
 .social--facebook,
@@ -209,7 +213,7 @@ b {
   height: 32px;
   width: 32px;
   border-radius: 16px;
-  background-color: white;
+  background-color: #ffffff;
   -webkit-transition-duration: 0.25s;
   -moz-transition-duration: 0.25s;
   -ms-transition-duration: 0.25s;
@@ -324,12 +328,12 @@ b {
     .nav__link:not(:first-child) {
       margin-left: 60px; } }
   .nav__link:hover {
-    color: white; }
+    color: #ffffff; }
     .nav__link:hover svg {
-      fill: white; }
+      fill: #ffffff; }
   @media (max-width: 849px) {
     .nav__link.is-active {
-      color: white; } }
+      color: #ffffff; } }
   @media (min-width: 850px) {
     .nav__link.is-active {
       position: relative; }
@@ -549,7 +553,7 @@ b {
   font-family: "Edmondsans", sans-serif;
   line-height: 1.6;
   text-align: center;
-  color: white; }
+  color: #ffffff; }
 
 .press__list {
   margin: 90px auto 148px;
@@ -580,3 +584,5 @@ b {
   content: " →";
   font-family: "Arial", sans-serif;
   font-style: normal; }
+
+/*# sourceMappingURL=application.css.map */
