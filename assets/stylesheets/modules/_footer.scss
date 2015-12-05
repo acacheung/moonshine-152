@@ -8,6 +8,11 @@
   }
 }
 
+.contacts {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
 .hours__heading,
 .contacts__heading {
   margin-bottom: 24px;
@@ -27,8 +32,9 @@
   }
 }
 
-.contacts__heading {
-  padding-top: 48px;
+.contacts__heading:last-of-type {
+  padding-top: 24px;
+  clear: both;
 }
 
 .hours {
@@ -47,6 +53,8 @@
 .contact {
   margin-bottom: 10px;
   padding-left: 14px;
+  display: block;
+  width: 100%;
   float: left;
   clear: left;
   font-size: 18px;
@@ -72,8 +80,8 @@
 .socials {
   margin-top: 22px;
   margin-bottom: 64px;
-  float: left;
-  clear: left;
+  float: right;
+  clear: right;
 }
 
 .social--twitter,
