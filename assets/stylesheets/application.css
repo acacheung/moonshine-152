@@ -451,6 +451,9 @@ b {
   margin-left: 8px;
   text-transform: lowercase; }
 
+.menu__item__price--sale {
+  text-decoration: line-through; }
+
 .menu__item__desc {
   margin-top: 4px;
   font-size: 14px;
