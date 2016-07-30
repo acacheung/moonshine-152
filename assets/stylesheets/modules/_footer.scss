@@ -80,8 +80,10 @@
 .socials {
   margin-top: 22px;
   margin-bottom: 64px;
-  float: right;
-  clear: right;
+  @media (min-width: 910px) {
+    float: right;
+    clear: right;
+  }
 }
 
 .social--twitter,

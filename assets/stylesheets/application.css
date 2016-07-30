@@ -201,9 +201,11 @@ b {
 
 .socials {
   margin-top: 22px;
-  margin-bottom: 64px;
-  float: right;
-  clear: right; }
+  margin-bottom: 64px; }
+  @media (min-width: 910px) {
+    .socials {
+      float: right;
+      clear: right; } }
 
 .social--twitter,
 .social--facebook,
