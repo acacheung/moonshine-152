@@ -43,6 +43,7 @@
   font-family: $merriweather;
   font-weight: 300;
   font-style: italic;
+  line-height: 20px;
   color: $white;
   @media (min-width: 910px) {
     float: right;
@@ -56,7 +57,6 @@
   float: left;
   clear: left;
   font-size: 18px;
-  font-weight: 600;
   font-family: $edmond;
   text-decoration: none;
   color: $white;

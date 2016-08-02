@@ -48,15 +48,3 @@ ul {
   font-weight: 400;
   font-style: normal;
 }
-
-@font-face {
-  font-family: 'Edmondsans';
-  src: url('../../public/fonts/edmondsans-bold-webfont.eot');
-  src: url('../../public/fonts/edmondsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../../public/fonts/edmondsans-bold-webfont.woff2') format('woff2'),
-       url('../../public/fonts/edmondsans-bold-webfont.woff') format('woff'),
-       url('../../public/fonts/edmondsans-bold-webfont.ttf') format('truetype'),
-       url('../../public/fonts/edmondsans-bold-webfont.svg#edmondsansbold') format('svg');
-  font-weight: 600;
-  font-style: normal;
-}
