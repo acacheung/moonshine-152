@@ -1,0 +1,40 @@
+.l-wrap {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1080px;
+  width: 90%;
+}
+
+.l-auto {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  overflow: auto;
+}
+
+.l-col,
+.l-colspan {
+  box-sizing: border-box;
+}
+@media (min-width: 910px) {
+  .l-col,
+  .l-colspan {
+    float: left;
+  }
+}
+
+@media (min-width: 910px) {
+  .l-col {
+    padding-right: 60px;
+    padding-left: 5%;
+    width: 38.5%;
+  }
+}
+
+@media (min-width: 910px) {
+  .l-colspan {
+    padding-right: 5%;
+    padding-left: 64px;
+    width: 61.5%;
+    border-left: 2px solid var(--color__gold--dark);
+  }
+}
