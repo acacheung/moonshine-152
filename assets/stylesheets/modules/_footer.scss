@@ -1,0 +1,113 @@
+.footer {
+  position: relative;
+  background-color: $black;
+  z-index: 2;
+  @media (max-width: 909px) {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+}
+
+.contacts {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.hours__heading,
+.contacts__heading {
+  margin-bottom: 24px;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: $edmond;
+  text-transform: uppercase;
+  color: $dark-gray;
+  letter-spacing: 5px;
+}
+
+.hours__heading {
+  @media (min-width: 910px) {
+    padding-top: 48px;
+    float: right;
+    clear: right;
+  }
+}
+
+.contacts__heading:last-of-type {
+  padding-top: 24px;
+  clear: both;
+}
+
+.hours {
+  margin-bottom: 14px;
+  font-size: 14px;
+  font-family: $merriweather;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 20px;
+  color: $white;
+  @media (min-width: 910px) {
+    float: right;
+    clear: right;
+  }
+}
+
+.contact {
+  margin-bottom: 10px;
+  padding-left: 14px;
+  float: left;
+  clear: left;
+  font-size: 18px;
+  font-family: $edmond;
+  text-decoration: none;
+  color: $white;
+  @include transition-duration(.25s);
+  @include transition-property(color);
+  &:hover {
+    color: $gold;
+  }
+  &:before {
+    content: ">";
+    display: inline-block;
+    position: relative;
+    left: -8px;
+    text-indent: -6px;
+    cursor: default;
+  }
+}
+
+.socials {
+  margin-top: 22px;
+  margin-bottom: 64px;
+  @media (min-width: 910px) {
+    float: right;
+    clear: right;
+  }
+}
+
+.social--twitter,
+.social--facebook,
+.social--instagram {
+  margin-right: 12px;
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  @extend %box-sizing;
+  border-radius: 16px;
+  background-color: $white;
+  @include transition-duration(.25s);
+  @include transition-property(background-color);
+  &:hover {
+    background-color: $gold;
+  }
+}
+
+.social--twitter,
+.social--instagram {
+  padding-top: 8px;
+  text-align: center;
+}
+
+.social--facebook {
+  padding-top: 4px;
+  padding-left: 4px;
+}
