@@ -1,11 +1,4 @@
 @charset "UTF-8";
-.social--twitter,
-.social--facebook,
-.social--instagram {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
 .l-col,
 .l-colspan {
   -webkit-box-sizing: border-box;
@@ -203,7 +196,9 @@ b {
 .social--facebook,
 .social--instagram {
   margin-right: 12px;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   height: 32px;
   width: 32px;
   border-radius: 16px;
@@ -222,15 +217,6 @@ b {
   .social--facebook:hover,
   .social--instagram:hover {
     background-color: #d6ba6a; }
-
-.social--twitter,
-.social--instagram {
-  padding-top: 8px;
-  text-align: center; }
-
-.social--facebook {
-  padding-top: 4px;
-  padding-left: 4px; }
 
 .header {
   position: relative;

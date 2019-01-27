@@ -88,10 +88,11 @@
 .social--facebook,
 .social--instagram {
   margin-right: 12px;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   height: 32px;
   width: 32px;
-  @extend %box-sizing;
   border-radius: 16px;
   background-color: $white;
   @include transition-duration(.25s);
@@ -99,15 +100,4 @@
   &:hover {
     background-color: $gold;
   }
-}
-
-.social--twitter,
-.social--instagram {
-  padding-top: 8px;
-  text-align: center;
-}
-
-.social--facebook {
-  padding-top: 4px;
-  padding-left: 4px;
 }
