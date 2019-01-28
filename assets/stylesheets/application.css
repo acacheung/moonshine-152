@@ -34,13 +34,15 @@ ul {
   src: url("../../public/fonts/edmondsans-regular-webfont.eot");
   src: url("../../public/fonts/edmondsans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../public/fonts/edmondsans-regular-webfont.woff2") format("woff2"), url("../../public/fonts/edmondsans-regular-webfont.woff") format("woff"), url("../../public/fonts/edmondsans-regular-webfont.ttf") format("truetype"), url("../../public/fonts/edmondsans-regular-webfont.svg#edmondsansregular") format("svg");
   font-weight: 300;
-  font-style: normal; }
+  font-style: normal;
+  font-display: auto; }
 @font-face {
   font-family: 'Edmondsans';
   src: url("../../public/fonts/edmondsans-medium-webfont.eot");
   src: url("../../public/fonts/edmondsans-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../../public/fonts/edmondsans-medium-webfont.woff2") format("woff2"), url("../../public/fonts/edmondsans-medium-webfont.woff") format("woff"), url("../../public/fonts/edmondsans-medium-webfont.ttf") format("truetype"), url("../../public/fonts/edmondsans-medium-webfont.svg#edmondsansmedium") format("svg");
   font-weight: 400;
-  font-style: normal; }
+  font-style: normal;
+  font-display: auto; }
 .l-wrap {
   margin-right: auto;
   margin-left: auto;
@@ -453,7 +455,6 @@ b {
   font-family: "Merriweather", serif;
   font-weight: 300;
   font-style: italic;
-  color: #d9d9d9;
   line-height: 1.6; }
 
 .moonshiners {
